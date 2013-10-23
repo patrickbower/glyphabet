@@ -1,0 +1,57 @@
+* {
+    @include box-sizing(border-box);
+}
+
+html {
+	@include background-image(linear-gradient(#d7e1db,white));
+	min-height: 100%;
+}
+
+body {
+    color: $dark;
+    font: 400 14px/1.3 ;
+    font-family: light;
+}
+
+
+// headings
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    color: inherit;
+    margin-bottom: 10px;
+}
+
+h1, .h1 {
+    color: $dark;
+    font: 400 30px/1.077 'bold';
+}
+
+h2, .h2 {
+    color: $dark;
+    font: 400 22px/1.158 'bold';
+}
+
+h3, .h3 {
+    font: 700 20px/1.176 'bold';
+}
+
+h4, .h4 {
+    font: 700 16px/1.333 'bold';
+}
+
+h5, .h5,
+h6, .h6 {
+    font: 700 14px/1.3 ;
+    margin-bottom: 5px;
+}
+
+// paragraphs
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+

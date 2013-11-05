@@ -1,6 +1,47 @@
 .header {
-	height: 95px;
-	background: $turquoise;
+	background: $brand-dark;
 	width: 100%;
 
+	.nav {
+		text-align: center;
+		padding: 30px 0;
+	}
+
+	.letter {
+		font: 2em/1.077 opensans-bold;
+		display: inline-block;
+		overflow: hidden;
+		position: relative;
+		white-space: nowrap;
+		color: $brand-dark;
+
+		.slider {
+			display: inline;
+			width: 60px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			text-align: left;
+			span {
+				display: inline-block;
+				width: 30px;
+				&:first-child {
+					color: $dark;
+				}
+				&:last-child {
+					color: $active;
+				}
+			}
+		}
+
+		.on {
+			transition: .2s;
+			left: -40px;
+		}
+
+		.off {
+			transition: .4s;
+			left: 0;
+		}
+	}
 }

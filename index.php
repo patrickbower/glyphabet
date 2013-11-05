@@ -6,17 +6,14 @@
         <meta name="description" content="Glyphabet Side Project">
         <meta name="viewport" content="width=device-width">
         <link href="assets/css/style.css" media="screen" rel="stylesheet" type="text/css" />
-
-
     </head>
     <body>
-
         <?php include('modules/header.php'); ?>
+        <?php include('modules/infolinks.php'); ?>
         <div class="belt">
             <?php include('modules/main.php'); ?>
         </div>
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/lib/jquery-1.9.1.min.js"></script>
+        <script src="assets/js/header.js"></script>
     </body>
 </html>

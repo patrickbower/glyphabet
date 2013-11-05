@@ -1,0 +1,74 @@
+.main {
+
+
+	.slider {
+		width: 100%;
+		height: 700px;
+		text-align: center;
+		position: relative;
+		.arrow {
+			font-size: 2em;
+			position: absolute;
+			bottom: 50%;
+
+			&:hover {
+				color: $active;
+			}
+		}
+		.previous {
+			left: 10%;
+		}
+		.next {
+			right: 10%;
+		}
+		.glyph {
+			font-size: 34em;
+		}
+
+
+
+		.shadow-ellipse {
+			position: relative;
+			width: 200px;
+			margin: 0 auto;
+		}
+
+		.shadow-ellipse:after {
+		  position: absolute;
+		  content: "";
+		  top: -80px;
+		  left: 0;
+		  right: 0;
+		  box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.4);
+		  border-radius: 50%;
+		  transform: rotateX(86deg);
+		}
+
+		.shadow-ellipse:before {
+		  position: absolute;
+		  content: "";
+		  top: -90px;
+		  left: 30px;
+		  right: 30px;
+		  box-shadow: 0 -5px 40px 1px rgba(0, 0, 0, 0.5);
+		  border-radius: 50%;
+		  transform: rotateX(86deg);
+		}
+
+
+	}
+
+	.decription {
+
+		h2 {
+			margin-bottom: 18px;
+		}
+		.underscore {
+			display: block;
+			width: 70px;
+			height: 5px;
+			background: $active;
+		}
+	}
+
+}

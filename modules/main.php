@@ -2,9 +2,11 @@
 		<div class="slider">
 			<a href="#" class="arrow previous"><i class="i-arrow-l"></i></a>
 
-			<span class="glyph"><i class="i-amp"></i></span>
-			<div class="box box-round square-150 shadow-sphere shadow-ellipse"></div>
+			<span class="glyph">
+				<i class="i-amp"></i>
+			</span>
 
+			<div class="box box-round square-150 shadow-sphere shadow-ellipse"></div>
 			<a href="#" class="arrow next"><i class="i-arrow-r"></i></a>
 		</div>
 	<div class="decription">
